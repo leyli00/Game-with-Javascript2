@@ -80,15 +80,11 @@ function game(){
 
         if((computer_score.innerText == 3)) {
             start_btn.style.visibility = "hidden";
-            computerImg.src = "";
-            computerImg.style.visibility  = "hidden";
-            computerImg.style.cssText = "background-image: url(https://media.giphy.com/media/OqEBxidnkAut2/giphy.gif)";
+            computerImg.src = "https://i.giphy.com/OqEBxidnkAut2.webp";
             computerImg.style.backgroundSize = "contain";
             computerImg.style.visibility = "visible";
 
-            userImg.src = "";
-            userImg.style.visibility  = "hidden";
-            userImg.style.cssText = "background-image: url(https://media.giphy.com/media/oumdjgdfS0K6awiJPa/giphy.gif)";
+            userImg.src = "https://i.giphy.com/oumdjgdfS0K6awiJPa.webp";
             userImg.style.backgroundSize = "contain";
             userImg.style.visibility = "visible";
 
@@ -96,15 +92,12 @@ function game(){
         }
         else if( (user_score.innerText == 3)){
             start_btn.style.visibility = "hidden";
-            computerImg.src = "";
-            computerImg.style.visibility  = "hidden";
-            computerImg.style.cssText = "background-image: url(https://media.giphy.com/media/oumdjgdfS0K6awiJPa/giphy.gif)";
+            computerImg.src = "https://i.giphy.com/oumdjgdfS0K6awiJPa.webp";
             computerImg.style.backgroundSize = "contain";
             computerImg.style.visibility = "visible";
 
-            userImg.src = "";
-            userImg.style.visibility  = "hidden";
-            userImg.style.cssText = "background-image: url(https://media.giphy.com/media/OqEBxidnkAut2/giphy.gif)";
+            
+            userImg.src = "https://i.giphy.com/OqEBxidnkAut2.webp";
             userImg.style.backgroundSize = "contain";
             userImg.style.visibility = "visible";
 
