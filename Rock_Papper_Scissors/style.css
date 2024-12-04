@@ -25,13 +25,15 @@ body{
     margin: 10px;
 }
 .comp img{
-    height: 180px;
-    width: 180px;
+    position: absolute;
+    height: 190px;
+    width: 190px;
     background-size: contain;
     background-repeat: no-repeat;
     visibility: hidden;
 }
 .comp{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,12 +75,30 @@ body{
     border-radius: 10px;
 
 }
+.btn-container{
+    position: relative;
+    width: fit-content;
+}
 .start_btn{
+    position: relative;
     width: 80px;
+    height: 64px;
     border-radius: 10px;
     border: none;
     background: orange;
     font-size: 18px;
+}
+.reset_btn{
+    position: absolute;
+    width: 80px;
+    height: 64px;
+    left: 0;
+    border-radius: 10px;
+    border: none;
+    background: orange;
+    font-size: 18px;
+    /* pointer-events: none; */
+    visibility: hidden;
 }
 .triplets{
     display: flex;
