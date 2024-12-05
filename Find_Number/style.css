@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "mulish",sans-serif;
+}
+.main{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.start-page{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    height: 500px;
+    width: 700px;
+    background: black;
+    /* visibility: hidden; */
+}
+.start-header{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 120px;
+    color: white;
+}
+.btn{
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+    border: none;
+}
+
+
+
+.game-page{
+    position: absolute;
+    margin: 50px auto;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+.score-board{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    height: 50px;
+    font-size: 15px;
+    background: #DDDDDD;
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+}
+.time-slider{
+    position: relative;
+    background: #FFBA7A;
+    margin-bottom: 20px;
+    border-radius: 5px 10px 10px 5px;
+    height: 20px;
+}
+.counter-span{
+    position: absolute;
+    display: flex;
+    top: -10px;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #FF0000;
+    color: white;
+}
+.question-board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #DDDDDD;
+    border-radius: 5px;
+    height: 130px;
+
+}
+.question{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 33px;
+}
+.answer-board{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+.answer-board .answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    background: #DDDDDD;
+    font-size: 23px;
+}
+
+
+
+.restart-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+    margin-top: 50px;
+    background: black;
+    visibility: hidden;
+}
+.restart-btn{
+    margin-bottom: 100px;
+}
+.restart-page-last-best-score{
+    display: flex;
+    gap: 100px;
+    color: white;
+}
+.previous-game-score-header{
+    color: white;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+.previous-game-score{
+    margin-left: 5px;
+}
