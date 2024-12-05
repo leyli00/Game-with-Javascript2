@@ -4,9 +4,9 @@ body{
     padding: 0;
 }
 .container{
-    height: 650px;
+    height: 670px;
     width: 800px;
-    margin: 100px auto;
+    margin: 70px auto;
     border: 2px solid orange;
     border-radius: 10px;
 }
@@ -47,6 +47,15 @@ body{
     margin-bottom: 10px;
     font-size: 25px;
 }
+.counter{
+    background-color: orange;
+}
+.player-header{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    margin: 10px;
+} 
 .counter{
     display: flex;
     align-items: center;
